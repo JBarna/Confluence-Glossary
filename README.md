@@ -1,8 +1,8 @@
-### SAT Glossary
+### Conflunece Glossary
 
-Automated macro for creating a section of defined SAT words present in any given Confluence article.
+Automated macro for creating a section of defined complex words present in any given Confluence article.
 
-Search for the `sat-glossary` forge app
+Search for the `word-glossary` forge app
 
 Invoke via `/Word glossary`
 

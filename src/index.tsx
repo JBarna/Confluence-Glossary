@@ -8,11 +8,14 @@ import ForgeUI, {
   useState,
 } from "@forge/ui";
 import { parse } from "node-html-parser";
-import { findMatchingWords } from "./words";
+import { findMatchingWords } from "./helper";
 
 process.cwd = () => ".";
 
 const fetchKeywordsForContent = async (contentId) => {
+
+  console.log("HERE WE ARE", contentId)
+
   const res = await api
     .asApp()
     .requestConfluence(
@@ -20,6 +23,8 @@ const fetchKeywordsForContent = async (contentId) => {
     );
 
   const data = await res.json();
+
+  console.log("body", JSON.stringify(data));
 
   const htmlContent = data.body.storage.value;
   const root = parse(htmlContent);

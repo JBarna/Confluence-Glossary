@@ -8,5 +8,5 @@ modules:
     - key: main
       handler: index.run
 app:
-  id: "ari:cloud:ecosystem::app/6f460af5-7878-4788-8c2f-be47a6c057ee"
-  name: sat-glossary
+  id: "ari:cloud:ecosystem::app/9240854e-9474-4a37-9c5b-419a7d38b7a9"
+  name: word-glossary
