@@ -1,0 +1,12 @@
+modules:
+  macro:
+    - key: word-glossary
+      function: main
+      title: word-glossary
+      description: Create a glossary of difficult words included in your Confluence article
+  function:
+    - key: main
+      handler: index.run
+app:
+  id: "ari:cloud:ecosystem::app/6f460af5-7878-4788-8c2f-be47a6c057ee"
+  name: sat-glossary
